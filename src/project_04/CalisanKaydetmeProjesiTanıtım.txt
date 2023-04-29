@@ -1,0 +1,62 @@
+
+    Herkese merhaba, bu dokumantasyon size proje icerisinde rehberlik edecek, projenin hatlarini ve amacini
+daha basit bir şekilde anlamaniza yardimci olacaktır.
+
+    Projenin temel amaci bir şirkete calisan kaydetmektir. Fakat bu calisanlar kaydedilirken departmanlara sahip
+olmalıdır ki, departmanlara göre calisanlari listeleyebilelim veya departmanlardaki zam oranlarına göre calisanlara
+zam yapabilelim.
+
+---------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------
+
+    Proje icerisinde spesifik istekler şu şekildedir:
+
+    1- Her bir departmanin kendine ait bir zam orani olmalıdır.
+
+        1.1- Sadece zam orani miktarinca calisana zam yapilmalidir.
+
+        Örneğin: Bilişim Teklonojileri departmaninda A isimli birisi çalışıyor ve maaşı 10.000,
+İnsan Kaynaklari departmaninda ise B isimli birisi çalışıyor ve maaşı 10.000. İnsan Kaynaklari departmaninin zam
+oraninin %20, Bilişim Teklonojileri departmanininda maaş oraninin %25 olduğunu var sayalim. A ve B kişileri için
+sadece 1 kez zam yapıldığında, A kişisinin 10.000 olan maaşı 12500 olur iken, B kişisinin maaşı 12000 olmalıdır.
+
+        1.2- Zam orani değiştirilmemeli fakat ulaşabilir olmalıdır ki zam yapilacak method için oran kullanabilinsin.
+
+        1.3- Zam calisanin id si alınarak yapılmalıdır.
+
+        1.4- Zam orani sabit olmalı ve bir departman icerisinde calisan her bir kisi isin, o departmanin zam orani
+        gecerli olmalıdir.
+
+   2- Her bir calisanin kendine ait eşsiz ID si olmalıdır.
+
+        2.1- Calisanlari birbirinden ayirabilmek için her kullanicinin kendine ait bir ID si olmalıdır. Örneğin:
+2 Calisanimiz olsun ve bu 2 calisaninda adi Fırat Yılmaz olsun. İkisi de aynı departmanlarda calissin fakat sadece
+birine zam yapılacak olsun. Bu durumda iki aynı isim arasindan bir seçim yapmamiz gereklidir. Bu iki ismi birbirinden
+ayiran özellik calisanin ID si olmalidir. Projede ID şu şekilde tanımlanmalıdır.
+
+            Departman Kodu (İnsan Kaynakları Departmanı -> IKD) +
+            (Şirkette çalışan sayısı + 1) +
+            Calisanin tam adinin baş harfleri
+
+            Örn: Şirkette 257 calisan var, Bilişim teklonojileri departmaninda Caglar Kızılbulut kaydedilecek olsun,
+            Caglar icin ID 'BTD258CK' olmalıdır.
+
+        2.2- Calisanin ID si üzerinden spesifik islemler yapilabilmelidir. Örneğin: bir calisana zam yapilacaksa,
+        ID si istenmelidir, bir calisan silinecekse ID si istenmelidir.
+
+    3- Departman üzerinden calisanlara ulasilabilmelidir.
+
+        3.1- Örneğin: Sadece "x" departmanındaki calisanlari listeleme özelliği bulunmalı.
+
+
+    4- Calisanlar konsola yazdırılırken, sadece Calisanin ID si, Adi Soyadi, Maaşı, ve Departmanının adi bulunmalıdır.
+
+    Örn: "Calisan ID : 'BTD1NA', Isim Soyisim : 'Nazmiye Akdogan', Maas : '25000', Departman : 'Bilişim Teklonojileri Departmani'"
+
+    (İpucu: toString() methodu ile kolayca yapılabilinir.)
+
+---------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------
+
+    Proje icin sorularinizi Mentor arkadaşlara sorabilirsiniz. Kolay gelsin.
+
