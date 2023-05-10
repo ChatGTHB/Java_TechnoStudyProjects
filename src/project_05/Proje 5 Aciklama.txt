@@ -1,0 +1,32 @@
+
+Herkese merhaba,
+
+    Bu belge içerisinde 11. hafta cuma projesininin hatlarindan bahsedeceğiz.
+
+    Proje icerisinde 2 adet paket bulunmakta. Birincisi Mortgage (nesnelerimizin olduğu paket), ikincisi ise TestClass
+(test classlarımızın olduğu paket). Nesnelerimiz Mortgage paketinin icerisinde tanımlanacakken, TestClass
+paketi altında da testlerimiz yapılacak. Projeyi cözmeye calismadan once aklınıza gelebilecek birkaç sorunun cevabına
+bakmanızı ve anlamanızı tavsiye ederim.
+
+    1- Projenin amacı nedir?
+    C- Satılacak evler icin bir fiyat cikarip daha sonra bunu bir fatura nesnesine dönüştürme projesi olarak görebiliriz.
+
+    2- Fiyatlar nasil cikiyor?
+    C- Her evin durumu, tipi, oda sayısı kendine özgü olabiliyor. 1 odali bir ev ile 5 odali bir evin arasında fiyat
+    farkı olacaktır. Ve bu fiyatin icerisine vergilerde dahil oluyor.
+
+    3- Vergiler neye göre hesaplanıyor?
+    C- Mortage paketinin icerisinde StatexTax class i bulunmakta, bölgelere göre vergiler orada tanimlandi. Her bir fatura
+    kendi icerisinde bir StatesTax nesnesinden attribute bulundurmakta. Fatura nesnesinin constructor ına bu attribute
+    parametre olarak gidiyor ve faturanin icerisinde yerleşiyor. Daha sonraki aşama ise bu vergiyi hesaplayarak toplam
+    tutarin üzerine eklemek.
+
+    4- Users class ı ne için?
+    C- HousePrices class, Users class tan miras aliyor. Yani Users class icerisindeki tüm attribute lar ve methodlar,
+    HousePrices icerisine geçiyor, tabiki erişimi olanlar (Örn: private olmayanlar).
+
+    5- Test1 Class nedir? Nasil calisiyor? Bu class icin bir şey yapacak mıyız?
+    C- Test1 Classinin içerisinde değiştirmeniz gereken hiçbir şey yok. Çalıştırmak istediğinizde ise sol tarafta classlarin
+    olduğu sekmeden üzerine sağ tıklayıp -> Run "Test1" diyebilirsiniz. Diğer çalıştırma yolları ve nasil çalıştığı class
+    içerisinde detayli anlatim yapildi.
+
