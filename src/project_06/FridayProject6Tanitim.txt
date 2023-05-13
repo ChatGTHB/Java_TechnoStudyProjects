@@ -1,0 +1,19 @@
+
+
+        Bu dökümanyasyon 4. cuma projesinin tanıtımı içindir.
+
+        Projenin ana hatlarini şu şekilde tanımlayabiliriz: User larimizi oluşturan, Models altında bir class ımız var.
+    Burada userlarimizin belirli özellikleri var (örn: isim soyisim, toplam ücreti, adres, vs.).
+
+        User a değindikten sonra projemizi anlamaya calisalim...
+
+        Proje yi bir mağaza olarak düşünün. Fakat bu mağaza sadece belirli yerlere hizmet sunuyor (örn: New York). Ve tabiki
+    bu mağaza içerisinde ürünler var. Eğer ki bir User, bir ürün alacak ise, user in içerisindeki ücret artmalı. Ayrıca
+    User in adresi mağazanın kargo alanı içerisinde olmalıdır. Projenin ana hatları oldukça basit.
+
+        Ekstradan HelperFunctions classimiz bulunmakta, bu class icerisinde tanımlayacağımız methodlar bizim projemizde
+    genel olarak kullanacağımız methodlardır (örn: bir kargo takip numarası oluşturacak method yazacak isek burada yer
+    almalıdır.).
+
+        Test1 Class i içerisinde herhangi bir şey değiştirmemize gerek yoktur ve ayrıntılı açıklama class icerisinde de
+    yapılacaktır.
