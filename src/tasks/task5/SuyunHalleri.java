@@ -1,26 +1,29 @@
-package Task5;
+package tasks.task5;
+
 import java.util.Scanner;
+
 public class SuyunHalleri {
-        public static void main(String[] args) {
-            // Değişkeni tanımlama
-            int suSicakligi;
+    public static void main(String[] args) {
 
-            // Kullanıcıdan girdiyi alma
-            Scanner scanner = new Scanner(System.in);
-            System.out.print("Su sıcaklığını girin: ");
-            suSicakligi = scanner.nextInt();
+        // Değişkeni tanımlama
+        int suSicakligi;
 
-            // Suyun halini belirleme
-            if (suSicakligi < 0) {
-                System.out.println("Su katı haldedir.");
-            } else if (suSicakligi <= 100) {
-                System.out.println("Su sıvı haldedir.");
-            } else {
-                System.out.println("Su gaz halindedir.");
-            }
+        // Kullanıcıdan girdiyi alma
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Su sıcaklığını girin: ");
+        suSicakligi = scanner.nextInt();
 
-            // Scanner'ı kapatma
-            scanner.close();
+        // Suyun halini belirleme
+        if (suSicakligi < 0) {
+            System.out.println("Su katı haldedir.");
+        } else if (suSicakligi <= 100) {
+            System.out.println("Su sıvı haldedir.");
+        } else {
+            System.out.println("Su gaz halindedir.");
         }
+
+        // Scanner'ı kapatma
+        scanner.close();
     }
+}
 

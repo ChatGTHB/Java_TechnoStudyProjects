@@ -1,9 +1,11 @@
-package Task2;
+package tasks.task2;
+
 import java.util.Scanner;
 
 public class ParaKisiEsleme {
 
     public static void main(String[] args) {
+
         Scanner scanner = new Scanner(System.in);
         // Kullanıcıdan bölge veya ülke seçimi
         System.out.println("Lütfen bir bölge veya ülke seçin: Amerika, Avrupa, Türkiye");
@@ -26,6 +28,7 @@ public class ParaKisiEsleme {
             System.out.println("Para üzerindeki kişi veya eser: " + eserVeyaKisi);
         }
     }
+
     // Eser veya kişiyi bulma metodu
     public static String bulEserVeyaKisi(String bolge, int tutar) {
         if (tutar < 1) {
