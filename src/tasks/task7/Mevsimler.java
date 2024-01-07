@@ -1,6 +1,6 @@
-package Task7;
+package tasks.task7;
 import java.util.Scanner;
-public class mevsimler {
+public class Mevsimler {
         public static void main(String[] args) {
             // Kullanıcıdan girdileri alma
             Scanner scanner = new Scanner(System.in);

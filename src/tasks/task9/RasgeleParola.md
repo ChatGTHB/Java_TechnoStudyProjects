@@ -19,6 +19,6 @@ Bu program, rastgele bir parola üreten bir işlev içermelidir. Parola, 8 ile 1
 - Java'da rastgele sayı üretmek için `java.util.Random` sınıfını kullanabilirsiniz.
 - Parolayı oluştururken bir döngü kullanarak her karakteri belirlenen ASCII aralığından seçebilirsiniz.
 
-- ![ascii.jpg](ascii.jpg)
+- ![ascii.jpg](Ascii.jpg)
 
 ![ParolaUretici.gif](ParolaUretici.gif)

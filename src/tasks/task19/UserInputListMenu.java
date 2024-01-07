@@ -1,11 +1,11 @@
-package Task19;
+package tasks.task19;
 
 import java.util.*;
 
 public class UserInputListMenu {
 
-    private static List<String> dizi = new ArrayList<>();
-    private static Scanner scanner = new Scanner(System.in);
+    private static final List<String> dizi = new ArrayList<>();
+    private static final Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
         boolean exit = false;

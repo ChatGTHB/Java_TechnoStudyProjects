@@ -1,8 +1,8 @@
-package Task8;
+package tasks.task8;
 
 import java.util.Scanner;
 
-public class sifreBelirleme {
+public class SifreBelirleme {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

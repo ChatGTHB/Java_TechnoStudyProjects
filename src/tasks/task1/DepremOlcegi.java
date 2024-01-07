@@ -1,6 +1,6 @@
 package Task1;
 import java.util.Scanner;
-public class depremOlcegi {
+public class DepremOlcegi {
 
         public static void main(String[] args) {
             // Kullanıcıdan deprem büyüklüğü girişi alınacak

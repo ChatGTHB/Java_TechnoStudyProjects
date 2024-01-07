@@ -1,7 +1,7 @@
 package Task3;
 
 import java.util.Scanner;
-public class ucgenSiniflandirma {
+public class UcgenSiniflandirma {
         public static void main(String[] args) {
             // Kullanıcıdan üçgen kenar uzunluklarını okuma
             Scanner scanner = new Scanner(System.in);

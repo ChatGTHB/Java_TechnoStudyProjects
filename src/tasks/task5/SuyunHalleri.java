@@ -1,6 +1,6 @@
 package Task5;
 import java.util.Scanner;
-public class suyunHalleri {
+public class SuyunHalleri {
         public static void main(String[] args) {
             // Değişkeni tanımlama
             int suSicakligi;

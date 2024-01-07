@@ -1,10 +1,10 @@
-package Task21;
+package tasks.task21;
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-public class kutuphane {
+public class Kutuphane {
 
 
     public static void main(String[] args) {

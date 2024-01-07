@@ -1,7 +1,8 @@
-package Task17;
+package tasks.task17;
+
 import java.util.Scanner;
 
-public class market {
+public class Market {
 
     public static void main(String[] args) {
         // Ürün tablosunu oluştur

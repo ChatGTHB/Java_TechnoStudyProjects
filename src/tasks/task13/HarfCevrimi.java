@@ -1,6 +1,6 @@
-package Task13;
+package tasks.task13;
 import java.util.Scanner;
-public class harfCevrimi {
+public class HarfCevrimi {
 
         public static void main(String[] args) {
             Scanner scanner = new Scanner(System.in);

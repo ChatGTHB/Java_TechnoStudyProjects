@@ -1,6 +1,6 @@
-package Task15;
+package tasks.task15;
 
-public class zipAlgoritma {
+public class ZipAlgoritma {
 
     // Test için kullanılan main metodu
     public static void main(String[] args) {

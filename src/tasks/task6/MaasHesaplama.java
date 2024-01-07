@@ -1,6 +1,6 @@
 package Task6;
 import java.util.Scanner;
-public class maasHesaplama {
+public class MaasHesaplama {
         public static void main(String[] args) {
             // Değişkenleri tanımlama
             float toplamMaas, sabitMaas, prim, satisKazanci, primOrani, performansSeviyesi;

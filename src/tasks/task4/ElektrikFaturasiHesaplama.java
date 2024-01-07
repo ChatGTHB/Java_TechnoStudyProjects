@@ -1,6 +1,6 @@
 package Task4;
 import java.util.Scanner;
-public class elektrikFaturasiHesaplama {
+public class ElektrikFaturasiHesaplama {
         public static void main(String[] args) {
             // Değişkenleri tanımlama
             float aylikFatura;
