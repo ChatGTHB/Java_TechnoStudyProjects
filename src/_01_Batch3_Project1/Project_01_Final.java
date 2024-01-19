@@ -41,8 +41,6 @@ public class Project_01_Final {
         System.out.print("Lütfen şifrenizi tekrar giriniz : ");
         String sifreTekrar = input.nextLine();
 
-        System.out.println(sifre.equals(sifreTekrar) ? "Tebrikler! " + kullaniciAdi +
-                " kullanıcı adıyla sisteme kaydoldunuz."
-                : "Hatalı giriş yaptınız. Lütfen tekrar deneyiniz.");
+        System.out.println(sifre.equals(sifreTekrar) ? "Tebrikler! " + kullaniciAdi + " kullanıcı adıyla sisteme kaydoldunuz." : "Hatalı giriş yaptınız. Lütfen tekrar deneyiniz.");
     }
 }
