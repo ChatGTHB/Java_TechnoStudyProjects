@@ -1,1 +1,1 @@
-# JavaProjects
+# JavaTechnoStudyProjects
