@@ -7,24 +7,24 @@ import java.util.Scanner;
 
 public class Project_02 {
 
-        public static void main(String[] args) {
+    public static void main(String[] args) {
 
-            // Scanner Class tanimlayin...
-            Scanner scan = new Scanner(System.in);
+        // Scanner Class tanimlayin...
+        Scanner scan = new Scanner(System.in);
 
-            // Banka Islemleri Listesi tanimlayin..."Para_Yatir", "Para_Cek", "Transfer", "Hesap_Ac"...
-            List<String> actions = new ArrayList<>(Arrays.asList("Para_Yatir", "Para_Cek", "Transfer", "Cikis"));
+        // Banka Islemleri Listesi tanimlayin..."Para_Yatir", "Para_Cek", "Transfer", "Hesap_Ac"...
+        List<String> actions = new ArrayList<>(Arrays.asList("Para_Yatir", "Para_Cek", "Transfer", "Cikis"));
 
-            // Banka musterileri kullanici adi listesi tanimlayin..."User1", "User2", "User3"...
+        // Banka musterileri kullanici adi listesi tanimlayin..."User1", "User2", "User3"...
 
-            // Banka musterileri sifreleri listesi tanimlayin..."password1", "password2", "password3"...
+        // Banka musterileri sifreleri listesi tanimlayin..."password1", "password2", "password3"...
 
-            // Banka musterilerine ait banka hesap numaralari listesi tanimlayin.."1234", "5678", "9999"
+        // Banka musterilerine ait banka hesap numaralari listesi tanimlayin.."1234", "5678", "9999"
 
-            // Banka musterilerine ait banka hesaplarinda bulunan para miktarlarini tanimlayin...200, 1000, 5000
+        // Banka musterilerine ait banka hesaplarinda bulunan para miktarlarini tanimlayin...200, 1000, 5000
 
-            // TODO ONEMLI NOT : Yukarida gireceginiz listelerdeki veriler index numarasina gore birbirleri ile iliskilidir
-            // TODO Mesela -> 'User1' in passwordu 'password1', hesap numarasi '1234' ve hesabiundaki para miktari '200' dur...
+        // TODO ONEMLI NOT : Yukarida gireceginiz listelerdeki veriler index numarasina gore birbirleri ile iliskilidir
+        // TODO Mesela -> 'User1' in passwordu 'password1', hesap numarasi '1234' ve hesabiundaki para miktari '200' dur...
 
 
     /*
@@ -55,39 +55,39 @@ public class Project_02 {
          default:"Basarili bir secim yapmadiniz..." mesaji versin..
 
     */
-            System.out.println("Yapmak istediginiz islemi seciniz...");
-            for (int i = 0; i < actions.size(); i++) {
-                System.out.println(actions.get(i) + " - " + (i + 1));
-            }
-            int userChoice = scan.nextInt();
+        System.out.println("Yapmak istediginiz islemi seciniz...");
+        for (int i = 0; i < actions.size(); i++) {
+            System.out.println(actions.get(i) + " - " + (i + 1));
+        }
+        int userChoice = scan.nextInt();
 
-            switch (userChoice) {
-                case 1: {
+        switch (userChoice) {
+            case 1: {
 
-
-                }
-                case 2: {
-
-
-                }
-                case 3: {
-
-
-                }
-                case 4:
-                    System.exit(1);
-
-                default: {
-                    System.out.println("Basarili bir secim yapmadiniz...");
-                }
 
             }
+            case 2: {
+
+
+            }
+            case 3: {
+
+
+            }
+            case 4:
+                System.exit(1);
+
+            default: {
+                System.out.println("Basarili bir secim yapmadiniz...");
+            }
+
+        }
        /*
         }
        */
-        }
+    }
 
-        private static void withdraw(List<String> accounts, List<Integer> funds, String chosenAccount, int amountToWithdraw) {
+    private static void withdraw(List<String> accounts, List<Integer> funds, String chosenAccount, int amountToWithdraw) {
 
         /*
         Bu method parametre olarak aldigi accounts (hesaplar) ve funds (hesapta bulunan para miktarlari) listelerinde bulunan degerleri
@@ -101,16 +101,16 @@ public class Project_02 {
 
          */
 
-        }
+    }
 
-        private static boolean confirmUsernameAndPassword(List<String> users, List<String> passwords, String username, String password) {
+    private static boolean confirmUsernameAndPassword(List<String> users, List<String> passwords, String username, String password) {
 
     /*
         Kullanici yukarida olusturdugumuz kullanici adi ve password lerden birini girmez ise bu method FALSE dondurmelidir..
         Buna gore verile parametreleri kullanarak kullanici teyitini yapiniz..
      */
 
-            return false;
-        }
+        return false;
     }
+}
 

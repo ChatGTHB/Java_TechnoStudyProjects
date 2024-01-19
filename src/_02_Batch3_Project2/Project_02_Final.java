@@ -13,15 +13,10 @@ public class Project_02_Final {
         Scanner scanStr = new Scanner(System.in);
 
         List<String> actions = new ArrayList<>(Arrays.asList("Para_Yatir", "Para_Cek", "Transfer", "Cikis"));
-
         List<String> users = new ArrayList<>(Arrays.asList("User1", "User2", "User3"));
-
         List<String> passwords = new ArrayList<>(Arrays.asList("password1", "password2", "password3"));
-
         List<String> accounts = new ArrayList<>(Arrays.asList("1234", "5678", "9999"));
-
         List<Integer> funds = new ArrayList<>(Arrays.asList(200, 1000, 5000));
-
 
         boolean isCorrect = false;
         while (!isCorrect) {
@@ -37,7 +32,6 @@ public class Project_02_Final {
             } else {
                 System.out.println("Basarili bir sekilde giris yaptiniz.");
             }
-
         }
 
         while (true) {
@@ -70,7 +64,6 @@ public class Project_02_Final {
                     System.out.println("Basarili bir secim yapmadiniz...");
             }
         }
-
     }
 
     private static void withdraw(List<String> accounts, List<Integer> funds, String chosenAccount, int amountToWithdraw) {
@@ -89,7 +82,6 @@ public class Project_02_Final {
         if (!flag) {
             System.out.println("Beklenmedik bir hata olustu...Iyi gunler dileriz...");
         }
-
     }
 
     private static boolean confirmUsernameAndPassword(List<String> users, List<String> passwords, String username, String password) {
@@ -103,7 +95,5 @@ public class Project_02_Final {
             }
         }
         return isCorrect;
-
-
     }
 }

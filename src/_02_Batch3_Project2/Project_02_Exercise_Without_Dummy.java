@@ -42,7 +42,6 @@ public class Project_02_Exercise_Without_Dummy {
         }
     */
 
-
         boolean isCorrect = false;
         while (!isCorrect) {
             System.out.print("Kullanici adinizi giriniz : ");
@@ -60,7 +59,6 @@ public class Project_02_Exercise_Without_Dummy {
 
         }
 
-
         //String password;
         //String username;
         //do {
@@ -74,7 +72,6 @@ public class Project_02_Exercise_Without_Dummy {
         //    }
         //} while (!isCorrect);
         //System.out.println("Basarili bir sekilde giris yaptiniz.");
-
 
     /*
         while (true){
@@ -92,7 +89,6 @@ public class Project_02_Exercise_Without_Dummy {
          default:"Basarili bir secim yapmadiniz..." mesaji versin..
     */
 
-
         while (true) {
             System.out.println("Yapmak istediginiz islemi seciniz..:");
             for (int i = 0; i < actions.size(); i++) {
@@ -108,13 +104,13 @@ public class Project_02_Exercise_Without_Dummy {
                 case 2:
                     System.out.println("accounts = " + accounts);
                     System.out.print("Hangi hesaptan para cekmek istiyorsunuz?\nPara cekmek istediginiz hesap numarasını tuslayiniz : ");
-                    String choosenAccount=scanStr.nextLine();
+                    String choosenAccount = scanStr.nextLine();
                     System.out.println("Cekmek istediginiz miktari giriniz : ");
-                    int amountToWithdraw= scan.nextInt();
-                    withdraw(accounts,funds,choosenAccount,amountToWithdraw);
+                    int amountToWithdraw = scan.nextInt();
+                    withdraw(accounts, funds, choosenAccount, amountToWithdraw);
                     break;
                 case 3:
-                    System.out.println("Bu islemi su an gerceklestiremiyoruz..." );
+                    System.out.println("Bu islemi su an gerceklestiremiyoruz...");
                     break;
                 case 4:
                     System.exit(1);
@@ -128,22 +124,20 @@ public class Project_02_Exercise_Without_Dummy {
 
     private static void withdraw(List<String> accounts, List<Integer> funds, String chosenAccount, int amountToWithdraw) {
 
-        boolean flag=false;
+        boolean flag = false;
 
         for (int i = 0; i < accounts.size(); i++) {
-            if(accounts.get(i).equals(chosenAccount) && funds.get(i)>=amountToWithdraw){
-                flag=true;
-                funds.set(i,funds.get(i)-amountToWithdraw);
-                System.out.println("Isleminiz gerceklestirilmistir. Mevcut bakiyeniz = "+funds.get(i));
+            if (accounts.get(i).equals(chosenAccount) && funds.get(i) >= amountToWithdraw) {
+                flag = true;
+                funds.set(i, funds.get(i) - amountToWithdraw);
+                System.out.println("Isleminiz gerceklestirilmistir. Mevcut bakiyeniz = " + funds.get(i));
                 break;
             }
         }
 
-       if(!flag){
-           System.out.println("Beklenmedik bir hata olustu...Iyi gunler dileriz...");
-       }
-
-
+        if (!flag) {
+            System.out.println("Beklenmedik bir hata olustu...Iyi gunler dileriz...");
+        }
 
         /*
         Bu method parametre olarak aldigi accounts (hesaplar) ve funds (hesapta bulunan para miktarlari) listelerinde bulunan degerleri
@@ -158,8 +152,6 @@ public class Project_02_Exercise_Without_Dummy {
          */
 
     }
-
-
 
     private static boolean confirmUsernameAndPassword(List<String> users, List<String> passwords, String username, String password) {
 
@@ -176,6 +168,6 @@ public class Project_02_Exercise_Without_Dummy {
         /*
         Kullanici yukarida olusturdugumuz kullanici adi ve password lerden birini girmez ise bu method FALSE dondurmelidir..
         Buna gore verile parametreleri kullanarak kullanici teyitini yapiniz..
-     */
+         */
     }
 }
