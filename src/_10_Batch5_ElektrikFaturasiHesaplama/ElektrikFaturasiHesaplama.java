@@ -1,4 +1,4 @@
-package _10_ElektrikFaturasiHesaplama;
+package _10_Batch5_ElektrikFaturasiHesaplama;
 
 import java.util.Scanner;
 

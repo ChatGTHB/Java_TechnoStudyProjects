@@ -1,4 +1,4 @@
-package _09_UcgenSiniflandirma;
+package _09_Batch5_UcgenSiniflandirma;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package _08_ParaKisiEsleme;
+package _08_Batch5_ParaKisiEsleme;
 
 import java.util.Scanner;
 

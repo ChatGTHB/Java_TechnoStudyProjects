@@ -1,4 +1,4 @@
-package _07_DepremOlcegi;
+package _07_Batch5_DepremOlcegi;
 
 import java.util.Scanner;
 
