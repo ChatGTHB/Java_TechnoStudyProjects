@@ -1,4 +1,4 @@
-package _12_MaasHesabi;
+package _12_Batch5_MaasHesabi;
 
 import java.util.Scanner;
 

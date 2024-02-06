@@ -1,4 +1,4 @@
-package _13_Mevsimler;
+package _13_Batch5_Mevsimler;
 
 import java.util.Scanner;
 

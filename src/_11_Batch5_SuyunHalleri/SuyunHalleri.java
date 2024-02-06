@@ -1,4 +1,4 @@
-package _11_SuyunHalleri;
+package _11_Batch5_SuyunHalleri;
 
 import java.util.Scanner;
 
