@@ -1,4 +1,4 @@
-package _26_SifreYoneticisi;
+package _26_Batch5_SifreYoneticisi;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package _21_ZipAlgoritma;
+package _21_Batch5_ZipAlgoritma;
 
 public class ZipAlgoritma {
 

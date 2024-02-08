@@ -1,4 +1,4 @@
-package _14_SifreBelirleme;
+package _14_Batch5_SifreBelirleme;
 
 import java.util.Scanner;
 

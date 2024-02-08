@@ -1,4 +1,4 @@
-package _20_DiziBirlestirme;
+package _20_Batch5_DiziBirlestirme;
 
 import java.util.*;
 

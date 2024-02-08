@@ -1,4 +1,4 @@
-package _19_HarfCevrimi;
+package _19_Batch5_HarfCevrimi;
 import java.util.Scanner;
 public class HarfCevrimi {
 

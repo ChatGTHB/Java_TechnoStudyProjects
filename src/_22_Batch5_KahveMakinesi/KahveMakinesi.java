@@ -1,4 +1,4 @@
-package _22_KahveMakinesi;
+package _22_Batch5_KahveMakinesi;
 
 import java.util.Scanner;
 

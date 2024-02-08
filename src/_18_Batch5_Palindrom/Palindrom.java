@@ -1,4 +1,4 @@
-package _18_Palindrom;
+package _18_Batch5_Palindrom;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package _24_PascalUcgeni;
+package _24_Batch5_PascalUcgeni;
 
 import java.util.Scanner;
 

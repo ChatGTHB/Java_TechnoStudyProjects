@@ -1,4 +1,4 @@
-package _25_ListeIslemleri;
+package _25_Batch5_ListeIslemleri;
 
 import java.util.*;
 

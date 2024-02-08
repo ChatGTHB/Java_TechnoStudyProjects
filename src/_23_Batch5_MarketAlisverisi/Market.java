@@ -1,4 +1,4 @@
-package _23_MarketAlisverisi;
+package _23_Batch5_MarketAlisverisi;
 
 import java.util.Scanner;
 
