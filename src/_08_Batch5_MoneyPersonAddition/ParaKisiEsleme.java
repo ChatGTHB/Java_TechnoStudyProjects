@@ -1,4 +1,4 @@
-package _08_Batch5_ParaKisiEsleme;
+package _08_Batch5_MoneyPersonAddition;
 
 import java.util.Scanner;
 

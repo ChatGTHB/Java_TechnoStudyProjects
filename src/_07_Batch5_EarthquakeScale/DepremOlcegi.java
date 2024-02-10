@@ -1,4 +1,4 @@
-package _07_Batch5_DepremOlcegi;
+package _07_Batch5_EarthquakeScale;
 
 import java.util.Scanner;
 
