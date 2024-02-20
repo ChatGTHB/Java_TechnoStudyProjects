@@ -7,6 +7,9 @@
 ### _04_Employee Recording Project
 ### _05_Mortgage Project
 ### _06_Shopping Project
+### _07_Eartquake Scale
+### _08_Money Person Addition
+### _09_Triangle Classification
 ### ...
 ### ...
 
