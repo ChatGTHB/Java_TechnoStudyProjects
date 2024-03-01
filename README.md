@@ -10,6 +10,9 @@
 ### _07_Eartquake Scale
 ### _08_Money Person Addition
 ### _09_Triangle Classification
+### _10_Electricity Bill Calculation
+### _11_States of Water
+### _12_Salary Account
 ### ...
 ### ...
 
