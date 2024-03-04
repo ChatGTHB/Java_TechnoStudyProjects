@@ -16,6 +16,9 @@
 ### _13_Seasons
 ### _14_Setting A Password
 ### _15_Random Password Generator
+### _16_String Password Control
+### _17_Internet Bill
+### _18_Palindrome
 ### ...
 ### ...
 
