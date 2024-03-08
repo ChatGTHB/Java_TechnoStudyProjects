@@ -19,6 +19,9 @@
 ### _16_String Password Control
 ### _17_Internet Bill
 ### _18_Palindrome
+### _19_Letter Conversion
+### _20_Array Merging
+### _21_Zip Algorithm
 ### ...
 ### ...
 
