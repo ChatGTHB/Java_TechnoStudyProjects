@@ -22,6 +22,9 @@
 ### _19_Letter Conversion
 ### _20_Array Merging
 ### _21_Zip Algorithm
+### _22_Coffee Machine
+### _23_Grocery Shopping
+### _24_Pascal Triangle
 ### ...
 ### ...
 
