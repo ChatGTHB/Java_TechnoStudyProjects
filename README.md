@@ -25,11 +25,9 @@
 ### _22_Coffee Machine
 ### _23_Grocery Shopping
 ### _24_Pascal Triangle
-### ...
-### ...
-
-### ...
-### ...
+### _25_List Transactions
+### _26_Password Manager
+### _27_Library Management System
 ### _28_Film Archive
 ### _29_Bank Project 03
 ### _30_Coffe Machine Project
