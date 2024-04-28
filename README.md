@@ -1,4 +1,4 @@
-# JavaTechnoStudyProjects
+# Java Techno Study Projects
 
 ### _01_Basic Java Project
 ### _02_Bank Project 01
