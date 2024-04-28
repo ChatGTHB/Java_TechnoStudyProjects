@@ -3,6 +3,7 @@ package _01_Batch3_BasicJavaProject;
 import java.util.Scanner;
 
 public class Project_01 {
+
     public static void main(String[] args) {
 
         // Scanner class tanimlayin...

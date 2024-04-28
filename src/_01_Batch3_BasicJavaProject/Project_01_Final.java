@@ -3,6 +3,7 @@ package _01_Batch3_BasicJavaProject;
 import java.util.Scanner;
 
 public class Project_01_Final {
+
     public static void main(String[] args) {
 
         Scanner input = new Scanner((System.in));
