@@ -6,7 +6,6 @@ import java.util.Scanner;
 
 public class Kutuphane {
 
-
     public static void main(String[] args) {
         Map<String, String> kitaplar = new HashMap<>();
         Scanner scanner = new Scanner(System.in);
