@@ -26,7 +26,6 @@ public class BankSimulation {
     private final List<Account> accounts;
     private final Scanner scanner;
 
-
     // CONSTRUCTORS
     // public BankSimulation() metodu bir constructor'dır.
     // Constructor, bir sınıfın nesnesi oluşturulduğunda otomatik olarak çağrılan bir metottur
@@ -38,6 +37,7 @@ public class BankSimulation {
     // Bu constructor sayesinde, BankSimulation sınıfından bir nesne oluşturduğunuzda,
     // müşteri ve hesap verilerini saklamak ve kullanıcıdan girdiler almak için gerekli olan
     // başlangıç durumu hazırlanmış olur.
+
     public BankSimulation() {
         customers = new HashMap<>();
         accounts = new ArrayList<>();
@@ -82,40 +82,29 @@ public class BankSimulation {
     }
 
 
-
     // MÜŞTERİLERİ LİSTELEYECEK OLAN METHOD
     public void listCustomers() {
         System.out.println("\n----- MÜŞTERİLER -----");
         for (Customer customer : customers.values()) {
-            System.out.println(customer.getCustomerId() +
-                    " - " + customer.getFirstName() +
-                    " " + customer.getLastName() +
-                    " (" + customer.getCity() + ")");
+            System.out.println(customer.getCustomerId() + " - " + customer.getFirstName() + " " + customer.getLastName() + " (" + customer.getCity() + ")");
             listCustomerAccounts(customer); // Müşteri Listelenirken, yanında hesapları da gösteriliyor...
         }
     }
 
     // MÜŞTERİLER LİSTELENİRKEN HESAP BİLGİSİ DE LİSTELENMESİ İÇİN GEREKLİ METOD.
     public void listCustomerAccounts(Customer customer) {
-        System.out.println("----- " + customer.getCustomerId() +
-                " " + customer.getFirstName() +
-                " " + customer.getLastName() +
-                " HESAPLARI -----");
+        System.out.println("----- " + customer.getCustomerId() + " " + customer.getFirstName() + " " + customer.getLastName() + " HESAPLARI -----");
         boolean hasAccounts = false;
         for (Account account : accounts) {
             if (account.getCustomerId() == customer.getCustomerId()) {
-                System.out.println(account.getAccountId() +
-                        " - " + account.getAccountType() +
-                        " - " + account.getBalance() +
-                        " TL");
+                System.out.println(account.getAccountId() + " - " + account.getAccountType() + " - " + account.getBalance() + " TL");
                 hasAccounts = true;
             }
         }
         System.out.println("===============================================");
 
         if (!hasAccounts) {
-            System.out.println("Müşterinin açılmış hesabı bulunmamaktadır.\n" +
-                    "===============================================");
+            System.out.println("Müşterinin açılmış hesabı bulunmamaktadır.\n" + "===============================================");
         }
     }
 
@@ -161,9 +150,7 @@ public class BankSimulation {
     public void customerOperations(Customer customer) {
         int choice;
         do {
-            System.out.println("\n----- " + customer.getFirstName() +
-                    " " + customer.getLastName() +
-                    " İŞLEMLERİ -----");
+            System.out.println("\n----- " + customer.getFirstName() + " " + customer.getLastName() + " İŞLEMLERİ -----");
             System.out.println("1. Yeni Hesap Aç");
             System.out.println("2. Hesapları Listele");
             System.out.println("3. Para Yatır");
