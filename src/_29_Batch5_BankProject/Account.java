@@ -9,7 +9,6 @@ public class Account {
     private double balance;
     private AccountType accountType;
 
-
     // CONSTRUCTORS
     public Account() {
     }
@@ -19,8 +18,6 @@ public class Account {
         this.customerId = customerId;
         this.accountType = accountType;
     }
-
-
 
     // GETTER METHODS
     public int getAccountId() {
@@ -39,8 +36,6 @@ public class Account {
         return accountType;
     }
 
-
-
     // PARA EKLE (DEPOSIT) METODU
     // YATIRILACAK TUTARIN SIFIRDAN BÜYÜK OLMASI GEREKİR.
     // ŞART SAĞLANDIĞINDA İLGİLİ HESABIN BAKİYESİ ARTMIŞ OLMALIDIR.
@@ -53,8 +48,6 @@ public class Account {
             System.out.println("Yatırılacak tutar sıfırdan büyük olmalıdır! Tekrar Deneyiniz...");
         }
     }
-
-
 
     //  PARA ÇEK (WITHDRAW) METODU
     // ÇEKİLECEK TUTARIN SIFIRDAN BÜYÜK OLMASI GEREKİR.
@@ -84,5 +77,4 @@ public class Account {
                 ", accountType=" + accountType +
                 '}';
     }
-
 }
