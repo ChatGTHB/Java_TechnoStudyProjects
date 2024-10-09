@@ -2,6 +2,8 @@
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
 ![Platform](https://img.shields.io/badge/platform-JVM-blue?style=for-the-badge)
+![GitHub](https://img.shields.io/github/license/ChatGTHB/JavaPatikaProjects?style=for-the-badge)
+![GitHub last commit](https://img.shields.io/github/last-commit/ChatGTHB/JavaPatikaProjects?style=for-the-badge)
 
 ## 💡 Introduction
 Welcome to the Java_TechnoStudyProjects repository! This repository contains a collection of Java projects developed as part of the Techno Study program. The projects are designed to cover various aspects of Java programming, from basic concepts to more advanced implementations, offering a comprehensive learning experience.
